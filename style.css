@@ -233,6 +233,41 @@ main {
     .last>a{
         color: white;
     }
+
+/* about us */
+
+    .main_body{
+        background-image: linear-gradient(to top, #2d3436 0%, #d3d3d3 74%);
+        /* display: grid;
+        grid-template-columns: auto auto ; */
+    }
+
+    .main_image{
+        width: 100%;
+    }
+    
+    .main_child2{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 20px;
+        
+    }
+    
+    .p1{
+        color: red;
+        padding-bottom: 10px;
+    }
+    
+    .main_child2 > h1{
+        /* padding: 10px; */
+        font-size: 20px;
+    }
+    
+    .p2{
+        padding-top: 30px;
+        font-size: 15px;
+    }
     
     
 
